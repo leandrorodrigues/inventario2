@@ -14,3 +14,12 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+$( function(){
+    $('.modal-alert').modal();
+    setTimeout(function(){
+        $('.modal-alert').modal('hide');
+    }, 3000);
+
+
+});
