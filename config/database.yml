@@ -8,7 +8,8 @@ default: &default
    adapter: mysql2
    encoding: utf8
    pool: 5
-   username: inventario2
+   username: inventario
+   database: inventario
    host: localhost
    password: inv15@
   # socket: /var/run/mysqld/mysqld.sock
