@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f39af9-7841-46c3-b703-7251e8bf83f5" name="Default" comment="" />
+    <list default="true" id="a7f39af9-7841-46c3-b703-7251e8bf83f5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/form_builders/form_builder/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/form_builders/form_builder/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/form_builders/form_builder/_form.html.haml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/form_builders/form_builder/_form.html.slim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/erb/scaffold/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/erb/scaffold/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/erb/scaffold/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/erb/scaffold/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/slim/controller/view.html.slim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/slim/scaffold/edit.html.slim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/slim/scaffold/index.html.slim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/slim/scaffold/new.html.slim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/slim/scaffold/show.html.slim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inventario2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inventario2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -15,8 +33,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Gemfile" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -34,6 +72,7 @@
     <option name="width" value="1602" />
     <option name="height" value="873" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -47,6 +86,10 @@
               <item name="inventario2" type="b2602c69:ProjectViewProjectNode" />
               <item name="inventario2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="inventario2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootstrap-generators" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -56,9 +99,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootstrap-generators" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.settings.patched" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,15 +226,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533758379670</updated>
-      <workItem from="1533758380854" duration="619000" />
+      <workItem from="1533758380854" duration="900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="619000" />
+    <option name="totallyTimeSpent" value="900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1602" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32931727" />
@@ -219,5 +264,14 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
