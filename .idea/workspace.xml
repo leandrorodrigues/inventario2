@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f39af9-7841-46c3-b703-7251e8bf83f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/form_builders/form_builder/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/form_builders/form_builder/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/form_builders/form_builder/_form.html.haml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/form_builders/form_builder/_form.html.slim" beforeDir="false" />
@@ -13,12 +12,8 @@
       <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/slim/scaffold/index.html.slim" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/slim/scaffold/new.html.slim" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootstrap-generators/lib/generators/bootstrap/install/templates/lib/templates/slim/scaffold/show.html.slim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inventario2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inventario2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -35,11 +30,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -53,6 +57,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -85,6 +90,16 @@
             <path>
               <item name="inventario2" type="b2602c69:ProjectViewProjectNode" />
               <item name="inventario2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inventario2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inventario2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inventario2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inventario2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="inventario2" type="b2602c69:ProjectViewProjectNode" />
@@ -226,12 +241,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533758379670</updated>
-      <workItem from="1533758380854" duration="900000" />
+      <workItem from="1533758380854" duration="1201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="900000" />
+    <option name="totallyTimeSpent" value="1201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1602" height="873" extended-state="6" />
@@ -266,10 +281,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../bootstrap-generators/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
