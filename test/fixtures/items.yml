@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: 1
+  title: MyString
+  brand_name: MyString
+  model_description: MyString
+  serial_number: MyString
+  warranty_date: 2018-08-30
+  value: 9.99
+  net_value: 9.99
+  allocation: MyText
+
+two:
+  number: 1
+  title: MyString
+  brand_name: MyString
+  model_description: MyString
+  serial_number: MyString
+  warranty_date: 2018-08-30
+  value: 9.99
+  net_value: 9.99
+  allocation: MyText

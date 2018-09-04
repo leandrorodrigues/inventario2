@@ -17,7 +17,10 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 #
 gem 'font-awesome-rails'
-gem 'bootstrap-generators', :path =>  '/home/leandro/Web/bootstrap-generators'
+gem 'i18n_rails_helpers'
+gem 'rooster-generators', :path =>  '/home/leandro/Web/rooster-generators'
+gem 'formtastic', '~> 3.0'
+gem 'bootstrap', '~> 4.1.3'
 
 gem 'kaminari'
 

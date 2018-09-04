@@ -1,3 +1,42 @@
+@import "bootstrap";
+
+.formtastic {
+  @extend .m-3;
+}
+.formtastic ol {
+ margin: 0; padding: 0;
+}
+.formtastic li {
+  @extend .form-group, .row;
+}
+
+.formtastic label {
+  //@extend .col-sm-2, .col-form-label, .col-form-label-sm;
+}
+
+.formtastic  {
+  input[type=text], select, input[type=number] {
+    @extend .form-control, .form-control-sm;
+  }
+  input[type=checkbox] {
+    @extend .form-check-input;
+  }
+
+  input[type=submit] {
+    @extend .btn, .btn-primary;
+  }
+  .boolean label {
+    @extend .form-check;
+  }
+  li.error input, .formtastic li.error .select {
+    @extend .is-invalid;
+  }
+  .inline-errors {
+    @extend .invalid-feedback;
+    display: block;
+  }
+}
+
 body {
   font-size: .875rem;
 }

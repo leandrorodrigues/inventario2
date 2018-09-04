@@ -1,0 +1,15 @@
+<div class="page-header">
+  <h1><%= Place.model_name.human  %></h1>
+</div>
+
+
+<ul class="nav nav-tabs justify-content-end">
+  <li class="nav-item">
+    <%= link_to (fa_icon 'list', :text => t_title(:index)), places_path, :class => 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'plus', :text => t_title(:new) ), new_place_path, :class => 'nav-link active' %>
+  </li>
+</ul>
+
+<%= render 'form' %>

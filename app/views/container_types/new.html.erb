@@ -1,0 +1,15 @@
+<div class="page-header">
+  <h1>Container types</h1>
+</div>
+
+
+<ul class="nav nav-tabs justify-content-end">
+  <li class="nav-item">
+    <%= link_to (fa_icon 'list', :text => 'List'), container_types_path, :class => 'nav-link ' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'plus', :text => 'Add New Container type'), new_container_type_path, :class => 'nav-link active' %>
+  </li>
+</ul>
+
+<%= render 'form' %>
