@@ -1,13 +1,24 @@
 <div class="page-header">
-  <%= link_to devices_path, class: 'btn btn-default' do %>
-    <span class="glyphicon glyphicon-list-alt"></span>
-    Back
-  <% end %>
-  <%= link_to @device, class: 'btn btn-primary' do %>
-    <span class="glyphicon glyphicon-info-sign"></span>
-    Show
-  <% end %>
-  <h1>Editing device</h1>
+  <h1><%= Device.model_name.human  %></h1>
 </div>
 
+<ul class="nav nav-tabs justify-content-end">
+  <li class="nav-item">
+    <%= link_to (fa_icon 'list', :text => t_title(:index)), devices_path, :class => 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'eye', :text => t_title(:show)), device_path(@device), :class => 'nav-link ' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'edit', :text => t_title(:edit)), edit_device_path(@device), :class => 'nav-link active ' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'trash', :text => t_title(:delete)), device_path(@device), :class => 'nav-link ', method: :delete, data: { confirm: t_confirm_delete(@device) } %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'plus', :text => t_title(:new)), new_device_path, :class => 'nav-link' %>
+  </li>
+</ul>
+
 <%= render 'form' %>
+

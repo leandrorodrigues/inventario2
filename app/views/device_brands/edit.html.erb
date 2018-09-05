@@ -1,0 +1,24 @@
+<div class="page-header">
+  <h1><%= DeviceBrand.model_name.human  %></h1>
+</div>
+
+<ul class="nav nav-tabs justify-content-end">
+  <li class="nav-item">
+    <%= link_to (fa_icon 'list', :text => t_title(:index)), device_brands_path, :class => 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'eye', :text => t_title(:show)), device_brand_path(@device_brand), :class => 'nav-link ' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'edit', :text => t_title(:edit)), edit_device_brand_path(@device_brand), :class => 'nav-link active ' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'trash', :text => t_title(:delete)), device_brand_path(@device_brand), :class => 'nav-link ', method: :delete, data: { confirm: t_confirm_delete(@device_brand) } %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'plus', :text => t_title(:new)), new_device_brand_path, :class => 'nav-link' %>
+  </li>
+</ul>
+
+<%= render 'form' %>
+

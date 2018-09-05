@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :device_types
+  resources :device_brands
   resources :places
   resources :container_types
   resources :items

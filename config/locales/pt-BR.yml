@@ -1,7 +1,17 @@
 ---
 pt-BR:
+  "false": Não
+  "true": Sim
+
+  views:
+    pagination:
+      first: "<<"
+      previous: "<"
+      truncate: "..."
+      next: ">"
+      last: ">>"
   messages:
-    confirm_delete: "Deseja realmente apagar %{model} %{record}?"
+    confirm_delete: "Deseja realmente apagar %{record}?"
     select_prompt:  "Selecione %{model}"
 
   crud:
@@ -31,6 +41,7 @@ pt-BR:
       back:     "Voltar"
       previous: "Anterior"
       next:     "Próximo"
+      search:   "Pesquisar"
 
   formtastic:
     labels:
@@ -45,10 +56,43 @@ pt-BR:
 
   activerecord:
     models:
-      place: "Lugar"
+      place: Lugar
+      item: Número de Tombo
+      device: Dispositivo
+      device_model: Modelo de Dispositivos
+      device_brand: Marca de Dispositivos
+
     attributes:
       place:
-        title: "Nome"
+        title: Nome
+      item:
+        number: Tombo
+        title: Descrição
+        brand_name: Marca
+        model_description: Modelo
+        serial_number: Número de Série
+        warranty_date: Data da Garantia
+        value: Preço
+        net_value: Preço Neto
+        allocation: Alocação
+      device:
+        title: Nome
+        item: Tombo
+        device_model: Modelo
+        ip: Ip
+        host: Host
+        description: Descrição
+        unknown: Desconhecido
+      device_model:
+        title: Modelo
+        device_brand: Marca
+        device_type: Tipo
+        rack_units: Unidades
+        ethernet_interfaces: Interfaces Ethernet
+        fiber_interfaces: Interfaces Fibra
+        stock_unit: Unidade
+      device_brand:
+        title: Marca
 
     errors:
       messages:
@@ -90,7 +134,7 @@ pt-BR:
     formats:
       default: "%d/%m/%Y"
       long: "%d de %B de %Y"
-      short: "%d de %B"
+      short: "%d/%m/%Y"
     month_names:
     -
     - Janeiro
@@ -236,7 +280,7 @@ pt-BR:
           unit: ''
       format:
         delimiter: ""
-        precision: 3
+        precision: 2
         significant: true
         strip_insignificant_zeros: true
       storage_units:

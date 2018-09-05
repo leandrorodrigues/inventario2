@@ -1,13 +1,24 @@
 <div class="page-header">
-  <%= link_to items_path, class: 'btn btn-default' do %>
-    <span class="glyphicon glyphicon-list-alt"></span>
-    Back
-  <% end %>
-  <%= link_to @item, class: 'btn btn-primary' do %>
-    <span class="glyphicon glyphicon-info-sign"></span>
-    Show
-  <% end %>
-  <h1>Editing item</h1>
+  <h1><%= Item.model_name.human  %></h1>
 </div>
 
+<ul class="nav nav-tabs justify-content-end">
+  <li class="nav-item">
+    <%= link_to (fa_icon 'list', :text => t_title(:index)), items_path, :class => 'nav-link' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'eye', :text => t_title(:show)), item_path(@item), :class => 'nav-link ' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'edit', :text => t_title(:edit)), edit_item_path(@item), :class => 'nav-link active ' %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'trash', :text => t_title(:delete)), item_path(@item), :class => 'nav-link ', method: :delete, data: { confirm: t_confirm_delete(@item) } %>
+  </li>
+  <li class="nav-item">
+    <%= link_to (fa_icon 'plus', :text => t_title(:new)), new_item_path, :class => 'nav-link' %>
+  </li>
+</ul>
+
 <%= render 'form' %>
+
