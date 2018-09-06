@@ -2,6 +2,9 @@ class ApplicationRecord < ActiveRecord::Base
   self.abstract_class = true
 
   def self.search(query)
+    if query.nil? || query.empty?
+      return self.all
+    end
 
     case self.verify_type query
     when :integer

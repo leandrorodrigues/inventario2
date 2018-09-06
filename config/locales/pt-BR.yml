@@ -3,6 +3,13 @@ pt-BR:
   "false": Não
   "true": Sim
 
+  index:
+    title: Controle do estoque
+
+  stock_items:
+    form:
+      no-item: Sem tombo
+
   views:
     pagination:
       first: "<<"
@@ -61,6 +68,7 @@ pt-BR:
       device: Dispositivo
       device_model: Modelo de Dispositivos
       device_brand: Marca de Dispositivos
+      stock_item: Ítem de Estoque
 
     attributes:
       place:
@@ -93,6 +101,13 @@ pt-BR:
         stock_unit: Unidade
       device_brand:
         title: Marca
+      stock_item:
+        title: Nome
+        item: Número de tombo
+        quantity: Quantidade
+        is_package: É um pacote
+        package_quantity: Quantidade em um pacote
+
 
     errors:
       messages:

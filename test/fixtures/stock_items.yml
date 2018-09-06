@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  item: one
+  quantity: 1
+  is_package: false
+  package_quantity: 1
+
+two:
+  title: MyString
+  item: two
+  quantity: 1
+  is_package: false
+  package_quantity: 1

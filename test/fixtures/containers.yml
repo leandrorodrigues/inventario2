@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  place: one
+  item: one
+  container_type: one
+  reverse: false
+  container: one
+
+two:
+  title: MyString
+  place: two
+  item: two
+  container_type: two
+  reverse: false
+  container: two

@@ -1,0 +1,13 @@
+<%= semantic_form_for @stock_item do |f| %>
+<%= f.inputs do %>
+  <%= f.input :title %>
+  <%= f.input :item, :prompt => t('.no-item') %>
+  <%= f.input :quantity %>
+  <%= f.input :is_package %>
+  <%= f.input :package_quantity %>
+<% end %>
+
+<%= f.actions do %>
+<%= f.action :submit, :as => :input %>
+<% end %>
+<% end %>

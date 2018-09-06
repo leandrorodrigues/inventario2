@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :containers
+  resources :stock_items
   resources :device_types
   resources :device_brands
   resources :places
@@ -6,5 +8,6 @@ Rails.application.routes.draw do
   resources :items
   resources :devices
   resources :device_models
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  get '/', action: :index, controller: :pages
 end
